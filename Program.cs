@@ -3,8 +3,9 @@ public class Program
 {
     public static void Main(String[] args)
     {
-        Console.WriteLine("hay nhap mot so nguyen bat ki");
-        int so = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("" + so);
+        Console.WriteLine("nhap ban kinh hinh tron:");
+        double r = Convert.ToDouble(Console.ReadLine());
+        double s = Math.PI * r * r;
+        Console.WriteLine("Dien tich hinh tron la:" + s);
     }
 }
